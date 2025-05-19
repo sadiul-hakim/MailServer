@@ -109,7 +109,6 @@ public class Server {
             writer.write("From: " + from + "\r\n");
             writer.write("To: " + to + "\r\n");
             writer.write("Date: " + LocalDateTime.now() + "\r\n");
-            writer.write("Subject: (No Subject)\r\n");
             writer.write("\r\n");
             writer.write(content);
         }
